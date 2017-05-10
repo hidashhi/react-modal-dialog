@@ -63,7 +63,9 @@ export default class ModalBackground extends React.Component {
 
     const containerStyle = {
       opacity: transparent ? 0 : 1,
-      overflowY: 'auto',
+      overflowY: 'scroll',
+      overflowScrolling: 'touch',
+      WebkitOverflowScrolling: 'touch',
       position: 'absolute',
       top: 0,
       left: 0,
